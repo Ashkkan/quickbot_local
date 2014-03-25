@@ -99,7 +99,7 @@ class QuickBot:
         self.send(cmdStr)
 
     def getIR(self):
-        cmdStr = "$IR?*\n"
+        cmdStr = "$IRVAL?*\n"
         self.send(cmdStr)
 
     def getEncoderVal(self):
